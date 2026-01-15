@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrialSMP — Survival Multiplayer</title>
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="logo">
+    <i class="fas fa-cube"></i>
+    TrialSMP
+  </div>
+  <div class="subtitle">
+    Survival Multiplayer
+  </div>
+  <div class="ip-card">
+    <span class="card-label">IP сервера</span>
+    <div class="ip-display">
+      n36.joinserver.xyz:25940
+    </div>
+    <button class="copy-button" id="copyButton">
+      <i class="fas fa-copy"></i> Скопировать
+    </button>
+    <div class="copy-status" id="copyStatus">
+      Скопировано!
+    </div>
+  </div>
+  <div class="server-status">
+    <div class="status-dot offline" id="statusDot"></div>
+    <span id="statusText">Проверка статуса...</span>
+  </div>
+  <div class="version-info">
+    Версия:
+    <span class="version-badge">1.21.4</span> –
+    <span class="version-badge">1.21.10</span>
+  </div>
+  <div class="footer">
+    © 2026 TrialSMP Все права защищены.
+  </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
